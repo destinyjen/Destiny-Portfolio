@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(161, 150, 231);
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0 0 0 15px;
+    color: black;
+}
+
+main {
+    padding-top: 50px;
+}
+
+main section {
+    width: 100%;
+    /* min-height: 100vh; */
+}
+
+main section#about {
+    background-color: khaki;
+    padding: 20px 0 20px 0;
+}
+
+main section#about .holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main section#about img {
+    width: 40%;
+    border-radius: 15%;
+}
+
+@media screen and (max-width: 960px) {
+    main section#about img {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+main section#about .bio {
+    width: 55%;
+}
+
+@media screen and (max-width: 960px) {
+    main section#about .bio {
+        width: 100%;
+    }
+}
+
+main section#about .bio p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+main section:nth-child(2) {
+    background-color: gray;
+}
+
+main section:nth-child(3) {
+    background-color: brown;
+}
+
+main section:nth-child(4) {
+    background-color: blue;
+}
+
+main section .holder {
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
+}
