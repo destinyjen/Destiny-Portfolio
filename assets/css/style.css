@@ -39,7 +39,7 @@ main section#about {
   background-color: khaki;
   padding: 20px 0;
 }
-/* this is the container for the about section */
+/* this is the container for the image */
 main section#about > div {
   display: flex;
   justify-content: space-between;
@@ -47,15 +47,15 @@ main section#about > div {
   padding: 1.25rem;
   align-items: center;
   flex-wrap: wrap;
+  
 }
 main section#about > div > *{
     flex: 1 0 15rem;
 }
-/* this is the container for the image */
+/* this is the image */
 main section#about img {
   border-radius: 15%;
 }
-
 /* this is the container for the bio */
 main section#about .bio {
   line-height: 1.5;
@@ -67,13 +67,76 @@ main section#about .bio p {
   margin-bottom: 15px;
 }
 
-main section#firstdemo {
-  background-color: gray;
+
+/* demo */
+/* this is the container for the image */
+main section#demo > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+main section#demo > div > *{
+    flex: 1 0 15rem;
+}
+/* this is the image */
+main section#demo img {
+  /* border-radius: 15%; */
+  max-width: 50%;
+
+}
+/* this is the container for the bio */
+main section#demo .projectDes {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+/* this is the container for the bio paragraph */
+main section#demo .projectDes p {
+  margin-bottom: 15px;
+}
+
+
+main section#demo {
+  background-color: rgb(225, 190, 190);
   padding: 20px 0;
 }
 
-main section#seconddemo {
-  background-color: brown;
+/* demo2 */
+main section#demo2 > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+main section#demo2 > div > *{
+    flex: 1 0 15rem;
+}
+/* this is the image */
+main section#demo2 img {
+  /* border-radius: 15%; */
+  max-width: 50%;
+
+}
+/* this is the container for the bio */
+main section#demo2 .projectDes {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+/* this is the container for the bio paragraph */
+main section#demo2 .projectDes p {
+  margin-bottom: 15px;
+}
+
+main section#demo2 {
+  background-color: rgb(148, 200, 246);
 }
 
 main section .holder {
